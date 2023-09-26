@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header id="main-header">
+    <header class="main-header">
       <h1>My Personal Website</h1>
       <p>
         <em
@@ -107,25 +107,35 @@
         </div>
       </div>
     </section>
-    <hr class="divider">
-    <section>
-      <h4>
-        Here's a little cat break (random pictures/videos of them) to make your
-        day!
-      </h4>
-      <video controls width="250">
-        <source src="./videos/happyHappyHappyCat.mp4" />
-        This browser does not support MP4 files
-      </video>
-      <br />
-      <iframe
-        src="./images/catProgrammer.png"
-        width="450"
-        height="338"
-      ></iframe>
+    <hr class="divider" />
+    <section id="cat-break">
+      <div id="cat-container">
+        <h4>
+          Here's a little cat break (random pictures/videos of them) to make
+          your day!
+        </h4>
+        <div class="row">
+          <div class="column">
+            <video controls width="250">
+              <source src="./videos/happyHappyHappyCat.mp4" />
+              This browser does not support MP4 files
+            </video>
+          </div>
+
+          <div class="column">
+            <iframe
+              src="./images/catProgrammer.png"
+              width="450"
+              height="338"
+            ></iframe>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
+    <hr class="divider">
+
+    <footer id="bottom-nav">
       <h3>For more information about myself, click on these links!</h3>
       <table>
         <tr>
@@ -134,8 +144,7 @@
               >My Top 10 Favorite Video Games of All Time (And Why)</a
             >
           </td>
-        </tr>
-        <tr>
+
           <td><a href="./myUniversity.html">Why I Chose Cal Poly Pomona</a></td>
         </tr>
       </table>
