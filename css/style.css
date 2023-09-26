@@ -189,6 +189,7 @@
   color: #d3d3d3;
 }
 
+/*favorite games*/
 .nav-bar {
   background-color: #333;
   color: white;
@@ -253,4 +254,24 @@
   border-radius: 2px;
   border-color: #302f2f;
   border-width: 5px;
+}
+
+/*my university*/
+.univeristy-intro,
+#university-content {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#article-header {
+  background-color: #013220;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.university-picture {
+  border: 5px solid black;
+  border-radius: 5px;
 }
