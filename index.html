@@ -2,111 +2,127 @@
 <html lang="en">
   <head>
     <title>My Personal Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome To My Personal Website!</h1>
-      <em
-        ><strong
-          >*For the links to the other webpages, scroll all the way
-          down!*</strong
-        ></em
-      >
-      <h2>A Little Introduction:</h2>
-      <h3>
-        My name is Ethan Jacinto and I am a second year Computer Science
-        Student!
-      </h3>
-      <img src="./images/me.jpg" alt="A Picture of Myself!" width="200" />
-      <br />
-      <em>(Ironically enough, this picture was taken at CSULB!) <br /> </em>
+    <header id="main-header">
+      <h1>My Personal Website</h1>
+      <p>
+        <em
+          ><strong
+            >*For the links to the other webpages, scroll all the way
+            down!*</strong
+          ></em
+        >
+      </p>
     </header>
 
-    <section>
-      <h4>Here are a fun facts about myself:</h4>
-      <ul>
-        <li>
-          <b
-            >Some of my favorite games of all time include (from favorite to
-            least favorite):</b
-          >
-          <ol>
-            <li>
-              <dl>
-                <dt>Elden Ring</dt>
-                <dd>
-                  <strong>
-                    <i
-                      >I started playing this game last year and 100%'d it ever
-                      since!</i
-                    >
-                  </strong>
-                </dd>
-              </dl>
-            </li>
-            <li>
-              <dl>
-                <dt>Baldur's Gate 3</dt>
-                <dd>
-                  <strong>
-                    <i
-                      >I recently got into this game (about a few days ago; it's
-                      that good!)</i
-                    >
-                  </strong>
-                </dd>
-              </dl>
-            </li>
-            <li>
-              <dl>
-                <dt>Honkai: Star Rail</dt>
-                <dd>
-                  <strong>
-                    <i>I swear I'm not addicted to gacha gambling.</i>
-                  </strong>
-                </dd>
-              </dl>
-            </li>
-          </ol>
-        </li>
-        <li>
-          <b>Some of my favorite foods to eat include:</b>
+    <section id="introduction">
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/me.jpg" alt="A Picture of Myself!" />
+          <h2>A Little Introduction</h2>
+          <br />
+          <h3>Ethan Jacinto</h3>
+          <p>
+            My name is Ethan Jacinto and I am a second year Computer Science
+            Student!
+          </p>
+          <br />
+          <em>(Ironically enough, this picture was taken at CSULB!)</em>
+        </div>
+      </div>
+    </section>
+    <hr class="divider" />
+    <section id="fun-facts">
+      <div id="fun-facts-info">
+        <div class="block">
+          <h2>Here are a few fun facts about myself:</h2>
           <ul>
-            <li>Ramen</li>
-            <li>Hot Pot</li>
-            <li>Pho</li>
+            <li>
+              <b
+                >Some of my favorite games of all time include (from favorite to
+                least favorite):</b
+              >
+              <ol>
+                <li>
+                  <dl>
+                    <dt>Elden Ring</dt>
+                    <dd>
+                      <strong>
+                        <i
+                          >I started playing this game last year and 100%'d it
+                          ever since!</i
+                        >
+                      </strong>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>Baldur's Gate 3</dt>
+                    <dd>
+                      <strong>
+                        <i
+                          >I recently got into this game (about a few days ago;
+                          it's that good!)</i
+                        >
+                      </strong>
+                    </dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>Honkai: Star Rail</dt>
+                    <dd>
+                      <strong>
+                        <i>I swear I'm not addicted to gacha gambling.</i>
+                      </strong>
+                    </dd>
+                  </dl>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <b>Some of my favorite foods to eat include:</b>
+              <ul>
+                <li>Ramen</li>
+                <li>Hot Pot</li>
+                <li>Pho</li>
+              </ul>
+            </li>
+            <li>
+              I currently have one pet named Tesla <em>(I didn't name her)</em>.
+              She is an American Bully! <br />
+            </li>
           </ul>
-        </li>
-        <li>
-          I currently have one pet named Tesla <em>(I didn't name her)</em>. She
-          is an American Bully! <br /><br />
-        </li>
-      </ul>
-      <video controls width="200" src="./videos/myDogRunning.mp4"></video>
-      <h4>One additional fun fact:</h4>
-      <p>
-        Despite being a second-year Computer Science student, I plan on
-        graduating in Fall 2025!
-        <br />
-        That leaves me only 3 more semesters left at CPP!
-      </p>
-
+          <video controls width="200" src="./videos/myDogRunning.mp4"></video>
+          <h4>One additional fun fact:</h4>
+          <p>
+            Despite being a second-year Computer Science student, I plan on
+            graduating in Fall 2025!
+            <br />
+            That leaves me only 3 more semesters left at CPP!
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="divider">
+    <section>
       <h4>
         Here's a little cat break (random pictures/videos of them) to make your
         day!
       </h4>
-      <div>
-        <video controls width="250">
-          <source src="./videos/happyHappyHappyCat.mp4" />
-          This browser does not support MP4 files
-        </video>
-        <br />
-        <iframe
-          src="./images/catProgrammer.png"
-          width="450"
-          height="338"
-        ></iframe>
-      </div>
+      <video controls width="250">
+        <source src="./videos/happyHappyHappyCat.mp4" />
+        This browser does not support MP4 files
+      </video>
+      <br />
+      <iframe
+        src="./images/catProgrammer.png"
+        width="450"
+        height="338"
+      ></iframe>
     </section>
 
     <footer>
